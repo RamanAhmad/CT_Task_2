@@ -58,7 +58,6 @@ class BlackBoxTest_Template1 {
 
 	@Test
 	void test_5() {
-		/* Colors: YELLOW, GREEN, RED */
 		Color expected = Color.YELLOW;
 		int x = 100;
 		int y = 5;
@@ -216,7 +215,6 @@ class BlackBoxTest_Template1 {
 
 	@Test
 	void testUEqu15() {
-		/* Colors: YELLOW, GREEN, RED */
 		int x = 120;
 		int y = 5;
 		Color actual = BlackBox1.G(x, y);
@@ -225,7 +223,6 @@ class BlackBoxTest_Template1 {
 
 	@Test
 	void testUEqu16() {
-		/* Colors: YELLOW, GREEN, RED */
 		int x = 120;
 		int y = 30;
 		Color actual = BlackBox1.G(x, y);
