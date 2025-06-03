@@ -16,6 +16,37 @@ class StateTest_Template1 {
 		fail("Not yet implemented");
 	}*/
 
+	@Test
+	void test() {
+		SbHard3.start();
+		SbHard3.transition("e");
+		SbHard3.transition("b");
+		SbHard3.transition("b");
+
+
+		SbHard3.getStateName();
+	}
+	@Test
+	void test2() {
+		SbHard3.start();
+		SbHard3.transition("a");
+		SbHard3.transition("c");
+		SbHard3.transition("a");
+
+		SbHard3.getStateName();
+	}
+	@Test
+	void test3() {
+		SbHard3.start();
+		SbHard3.transition("c");
+		SbHard3.transition("d");
+		SbHard3.transition("d");
+		SbHard3.transition("a");
+		SbHard3.transition("c");
+		SbHard3.getStateName();
+
+	}
+
 	// ------- DO NOT TOUCH BELOW THIS LINE -------
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
